@@ -1,0 +1,8 @@
+---
+
+- name: Apply DISA STIG to RHEL 8
+  hosts: all
+  remote_user: root
+  gather_facts: false
+  roles:
+    - ansible-role-rhel8-stig
