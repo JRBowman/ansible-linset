@@ -3,6 +3,5 @@
 - name: Apply DISA STIG to RHEL 8
   hosts: all
   remote_user: root
-  gather_facts: false
   roles:
     - { role: redhatofficial.rhel8_stig }
