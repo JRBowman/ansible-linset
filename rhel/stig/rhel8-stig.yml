@@ -5,4 +5,4 @@
   remote_user: root
   gather_facts: false
   roles:
-    - ansible-role-rhel8-stig
+    - { role: RedHatOfficial.rhel8-stig }
