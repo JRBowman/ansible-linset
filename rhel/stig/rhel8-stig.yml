@@ -5,4 +5,4 @@
   remote_user: root
   gather_facts: false
   roles:
-    - RedHatOfficial.rhel8_stig
+    - { role: redhatofficial.rhel8_stig }
